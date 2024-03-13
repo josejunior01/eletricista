@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1 {
+    text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 10px;
+
+}
+
+.header{
+    /* display-box  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color da cor de fundo na pafina web */
+    background-color: #4B72A6;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.header .fa-solid {
+    /* font-size ele da o tamanho para meu icone fa-solid */
+font-size: 100px;
+/* color ele deu a cor do meu icone fa-solid */
+color:#C2D7F2  ;
+}
+
+.menu li{
+    /* margin-left ele centralizou meu (nome serviço eletrico) */
+    margin-left: 10px;
+    /* list-style ele tira as bolinha que vai a frente da minha lista nao ordenada (ul) */
+    list-style: none;
+}
+.menu li a{
+    /* text-decoretion ele tira as linha que fica abaixo do nome aconrado com a tag (a) */
+    text-decoration: none;
+    color:#C2D7F2 ;
+    padding: 10px;
+    background-color:#7EA1BF ;
+}
+.menu{
+    display: flex;
+}
+.flexbox img{
+    max-width: 100%;
+    display: block;
+}
+.flexbox{
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+}
