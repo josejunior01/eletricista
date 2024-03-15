@@ -97,8 +97,9 @@ color:#C2D7F2  ;
 }
 .table{
     background-color: #ea2222;
-    padding: 50px;
+    padding: 500px;   
 }
+
 .section2{
     /* estiliza todo o meu section (p) para da cor tamanho e centralizar */
     background-color: #225eea;
