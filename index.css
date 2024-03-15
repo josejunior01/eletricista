@@ -1,16 +1,22 @@
 /* estiliza o css */
 * {
-margin: 0px;
+    margin: 0px;
     padding: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+
+
+
+
+
 /* estiliza o titulo da pagina */
 h1 {
     text-align: center;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin: 10px;
-
+   margin: 0px;
+   font-size: 60px;
+   
+    
 }
 /* estiliza o header onde estao os menus */
 .header{
@@ -24,22 +30,33 @@ h1 {
     flex-wrap: wrap;
 }
 
+
+
 .header .fa-solid {
 /* estiliza o icone de tomada de header fa-solid */
 
     /* font-size ele da o tamanho para meu icone fa-solid */
-font-size: 100px;
+font-size: 150px;
 /* color ele deu a cor do meu icone fa-solid */
 color:#C2D7F2  ;
 }
+
+.menu li a:hover{
+    /* estiliza os iconis fazendo eles mudarem de cor quando passa o mouse */
+    background-color:#C2D7F2 ;
+}
+
 
 .menu li{
 /* estiliza os menus dentro header */
 
     /* margin-left ele centralizou meu (nome serviço eletrico) */
-    margin-left: 10px;
+    margin-left: 30px;
     /* list-style ele tira as bolinha que vai a frente da minha lista nao ordenada (ul) */
     list-style: none;
+    height: 0px;
+    
+   
 }
 .menu li a{
 /* estiliza os link dentro do header que esta ancorano nos menu */
@@ -49,6 +66,8 @@ color:#C2D7F2  ;
     color:#a8baff;
     padding: 10px;
     background-color:#225eea;
+    box-shadow: 5px 5px 5px #080808;
+   
 }
 .menu{
     /* estiliza o menu dentro do header dando espaçamento para os menu */
@@ -56,8 +75,11 @@ color:#C2D7F2  ;
 }
 .flexbox img{
     /* estiliza as imagen dando um tamanho e uma e um espaçamento para as caixa */
-    max-width: 100%;
-    display: block;
+    max-width: 200%;
+  display: block ;
+    width: 221px;
+    height: 140px;
+    margin-top: 40px;
 }
 .flexbox{
     /* estiliza as caixa dando tamanho altura largura e centraliza  */
@@ -70,8 +92,12 @@ color:#C2D7F2  ;
 }
 .flexbox div{
     /* estiliza toda caixa do flexbox  */
-    margin: 15px;
-    flex: 1 1  200px;
+    margin: 20px;
+    flex: 1 1 200px;
+}
+.table{
+    background-color: #ea2222;
+    padding: 50px;
 }
 .section2{
     /* estiliza todo o meu section (p) para da cor tamanho e centralizar */
@@ -82,8 +108,9 @@ color:#C2D7F2  ;
 }
 .section2 p{
     /* estiliza todo o meu section (p) dando tamanho e modificando a letra */
-    font-size: 20px;
+    font-size: 25px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    box-shadow: 1px 1px 200px 2px black;
 
 }
 .rodape{
@@ -104,6 +131,13 @@ color:#C2D7F2  ;
     margin-right: 20px;
     list-style: none;
 }
+
+
+.liste-rodape li a:hover{
+     /* estiliza os menus fazendo eles mudarem de cor quando passa o mouse */
+    background-color: #225eea;
+}
+
 .liste-rodape li a{
     /* estiliza os link dentro do footer que esta ancorano nos menu */
     background-color: #87a3fa;
@@ -120,6 +154,12 @@ color:#C2D7F2  ;
     border-radius: 5px;
     padding: 10px;
 }
+
+.rodape-icones i:hover{
+    /* estiliza os iconis fazendo eles mudarem de cor quando passa o mouse */
+    background-color: #225eea;
+}
+
 .rodape-icones a{
     /* estiliza meu icone tirando dele uns traço que ja vem no icone */
     text-decoration: none;
